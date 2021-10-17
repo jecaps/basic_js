@@ -2,6 +2,7 @@
 /* This is a 
 multi-line comment */
 
-//
 var a;
 a = 7;
+var b;
+b = a;
