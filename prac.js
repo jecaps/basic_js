@@ -21,3 +21,9 @@ var c = "I am a";
 a = a + 1;
 b = b + 5;
 c = c + " String!";
+
+/*  variables and function names are case sensitive
+best practice = camelCase */
+
+var myVariable;
+var ourVariable;
