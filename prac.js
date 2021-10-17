@@ -27,3 +27,6 @@ best practice = camelCase */
 
 var myVariable;
 var ourVariable;
+
+// Number is a data type in JavaScript which represents numeric data.
+var sum = 12 + 15;
