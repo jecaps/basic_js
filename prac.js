@@ -185,4 +185,9 @@ var myArray = [
 var myArray = [50, 60, 70];
 var myData = myArray[0];
 
-console.log(myData);
+// arrays = mutable
+
+var myArray = [18, 64, 99];
+myArray[0] = 45;
+
+console.log(myArray);
