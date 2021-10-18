@@ -134,4 +134,10 @@ myStr += "This is the second sentence.";
 var myName = "Jerika";
 var myStr = "My name is " + myName + " and I am well!";
 
+// '+=' to concatenate a string variable onto the end of an existing string variable
+
+var someAdjective = "not that hard.";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+
 console.log(myStr);
