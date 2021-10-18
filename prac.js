@@ -258,3 +258,12 @@ function fun2() {
   }
   console.log(output);
 }
+
+// Variables which are declared within a function, as well as the function parameters, have local scope.
+
+function myLocalScope() {
+  var theVar = "I am a local scope";
+  console.log("inside myLocalScope", theVar);
+}
+myLocalScope();
+console.log("outside myLocalScope", theVar);
