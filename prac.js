@@ -140,4 +140,10 @@ var someAdjective = "not that hard.";
 var myStr = "Learning to code is ";
 myStr += someAdjective;
 
-console.log(myStr);
+// You can find the length of a String value by writing .length after the string variable or string literal.
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+lastNameLength = lastName.length;
+
+console.log(lastNameLength);
