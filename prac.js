@@ -190,4 +190,14 @@ var myData = myArray[0];
 var myArray = [18, 64, 99];
 myArray[0] = 45;
 
-console.log(myArray);
+// The first set of brackets refers to the entries in the outer-most (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
+
+var myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+]; // Use bracket notation to select number 8
+var myData = myArray[2][1];
+
+console.log(myData);
