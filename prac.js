@@ -108,4 +108,15 @@ var myLastName = "Kanz";
 
 var myStr = 'I am a "double quoted" string inside "double quotes".';
 
+/* \'	single quote
+  \"	double quote
+  \\	backslash
+  \n	newline
+  \r	carriage return
+  \t	tab
+  \b	word boundary
+  \f	form feed*/
+
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+
 console.log(myStr);
