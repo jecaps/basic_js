@@ -44,4 +44,6 @@ myVar++;
 var myVar = 11;
 myVar--;
 
-console.log(myVar);
+// decimal numbers = floats
+
+var myDecimal = 8.9;
