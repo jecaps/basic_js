@@ -171,4 +171,12 @@ var lastLetterOfLastName = lastName[lastName.length - 1];
 
 var myArray = ["Jerika", 27, "Germany"];
 
+// Array within an array = multi-dimensional array
+
+var myArray = [
+  ["Jerika", 27, "Philippines"],
+  ["Andreas", 32, "Germany"],
+  ["Karen", 25, "France"],
+];
+
 console.log(myArray);
