@@ -152,4 +152,10 @@ lastNameLength = lastName.length;
 var lastName = "Kanz";
 var firstLetterOfLastName = lastName[0];
 
-console.log(firstLetterOfLastName);
+/* String values are immutable, which means that they cannot be altered once created.
+  This does not mean that myStr cannot be changed, just that the individual characters of a string literal cannot be changed.*/
+
+var myStr = "Jello World";
+myStr = "Hello World";
+
+console.log(myStr);
