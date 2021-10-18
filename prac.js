@@ -129,4 +129,9 @@ var myStr = "This is the start. " + "This is the end.";
 var myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 
+// By using the concatenation operator (+), you can insert one or more variables into a string you're building.
+
+var myName = "Jerika";
+var myStr = "My name is " + myName + " and I am well!";
+
 console.log(myStr);
