@@ -47,3 +47,7 @@ myVar--;
 // decimal numbers = floats
 
 var myDecimal = 8.9;
+
+// multiply decimals like whole numbers with
+
+var product = 2.0 * 2.5;
