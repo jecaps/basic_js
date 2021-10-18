@@ -70,4 +70,14 @@ a += 12;
 b += 9;
 c += 7;
 
+// subtracting a number to the same variable
+
+var a = 11;
+var b = 9;
+var c = 3;
+
+a -= 6;
+b -= 15;
+c -= 1;
+
 console.log(a, b, c);
