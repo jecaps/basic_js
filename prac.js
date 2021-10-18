@@ -163,4 +163,8 @@ myStr = "Hello World";
 var LastName = "Kanz";
 var thirdLetterOfLastName = lastName[2];
 
-console.log(thirdLetterOfLastName);
+// -1 to string's length to get the last letter of the string
+
+var lastLetterOfLastName = lastName[lastName.length - 1];
+
+console.log(lastLetterOfLastName);
