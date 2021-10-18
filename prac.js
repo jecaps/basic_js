@@ -99,4 +99,7 @@ a /= 12;
 b /= 4;
 c /= 11;
 
-console.log(a, b, c);
+// A string is a series of zero or more characters enclosed in single or double quotes
+
+var myFirstName = "Jerika";
+var myLastName = "Kanz";
