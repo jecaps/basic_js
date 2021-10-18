@@ -213,5 +213,9 @@ arr2.push(["happy", "joy"]);
 var threeArr = [1, 4, 6];
 var oneDown = threeArr.pop();
 
-console.log(oneDown);
-console.log(threeArr);
+// .shift() removes the first element from an array
+
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromArray = ourArray.shift();
+
+console.log(ourArray, removedFromArray);
