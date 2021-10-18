@@ -90,4 +90,13 @@ a *= 5;
 b *= 3;
 c *= 10;
 
+// dividing a number to the same variable
+var a = 48;
+var b = 108;
+var c = 33;
+
+a /= 12;
+b /= 4;
+c /= 11;
+
 console.log(a, b, c);
