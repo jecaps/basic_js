@@ -56,4 +56,8 @@ var product = 2.0 * 2.5;
 
 var quotient = 4.4 / 2.0;
 
-console.log(quotient);
+// % = remainder operator; not to be confused with modulus(does not work properly with negative numbers)
+
+var remainder = 11 % 3;
+
+console.log(remainder);
