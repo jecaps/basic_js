@@ -146,4 +146,10 @@ var lastNameLength = 0;
 var lastName = "Lovelace";
 lastNameLength = lastName.length;
 
-console.log(lastNameLength);
+/* Bracket notation is a way to get a character at a specific index within a string.
+  starts counting at 0*/
+
+var lastName = "Kanz";
+var firstLetterOfLastName = lastName[0];
+
+console.log(firstLetterOfLastName);
