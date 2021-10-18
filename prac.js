@@ -40,4 +40,8 @@ var quotient = 66 / 3;
 var myVar = 87;
 myVar++;
 
+// decrement or decrease a variable by one with --
+var myVar = 11;
+myVar--;
+
 console.log(myVar);
