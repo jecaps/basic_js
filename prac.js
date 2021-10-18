@@ -124,4 +124,9 @@ var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 
 var myStr = "This is the start. " + "This is the end.";
 
+// '+=' to concatenate a string onto the end of an existing string variable
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
 console.log(myStr);
