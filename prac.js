@@ -179,4 +179,10 @@ var myArray = [
   ["Karen", 25, "France"],
 ];
 
-console.log(myArray);
+/* Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array.
+  There shouldn't be any spaces between the array name and the square brackets, like array [0].*/
+
+var myArray = [50, 60, 70];
+var myData = myArray[0];
+
+console.log(myData);
