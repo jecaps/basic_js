@@ -200,4 +200,12 @@ var myArray = [
 ]; // Use bracket notation to select number 8
 var myData = myArray[2][1];
 
-console.log(myData);
+// append data to the end of an array with push()
+
+var arr1 = [1, 2, 3];
+arr1.push(4);
+
+var arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+
+console.log(arr1, arr2);
