@@ -60,4 +60,14 @@ var quotient = 4.4 / 2.0;
 
 var remainder = 11 % 3;
 
-console.log(remainder);
+// adding a number to the same variable
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+
+console.log(a, b, c);
