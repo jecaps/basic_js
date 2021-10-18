@@ -236,4 +236,25 @@ function reusableFunction() {
 function functionWithArgs(p1, p2) {
   console.log(p1 + p2);
 }
-functionWithArgs(42, 78);
+
+/* Variables which are defined outside of a function block have Global scope. 
+  This means, they can be seen everywhere in your JavaScript code. */
+
+/*Instructions : Using var, declare a global variable named myGlobal outside of any function. Initialize it with a value of 10.
+  Inside function fun1, assign 5 to oopsGlobal without using the var keyword.*/
+
+function fun1() {
+  oopsGlobal = 5;
+}
+var myGlobal = 10;
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
