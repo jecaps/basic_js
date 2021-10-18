@@ -104,7 +104,7 @@ c /= 11;
 var myFirstName = "Jerika";
 var myLastName = "Kanz";
 
-// escape a quote using backslash (\)
+// escape a quote using backslash (\) (vscode automatically changes and uses single and double quotes for string data types)
 
 var myStr = 'I am a "double quoted" string inside "double quotes".';
 
