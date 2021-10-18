@@ -29,9 +29,15 @@ var myVariable;
 var ourVariable;
 
 // Number is a data type in JavaScript which represents numeric data.
+
 var sum = 12 + 15;
 var difference = 72 - 38;
 var product = 5 * 7;
 var quotient = 66 / 3;
 
-console.log(quotient);
+// increment or add one to a variable with ++
+
+var myVar = 87;
+myVar++;
+
+console.log(myVar);
