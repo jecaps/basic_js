@@ -208,4 +208,10 @@ arr1.push(4);
 var arr2 = ["Stimpson", "J", "cat"];
 arr2.push(["happy", "joy"]);
 
-console.log(arr1, arr2);
+// .pop() removes the last element from an array and returns that element.
+
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+
+console.log(oneDown);
+console.log(threeArr);
