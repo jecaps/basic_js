@@ -119,4 +119,9 @@ var myStr = 'I am a "double quoted" string inside "double quotes".';
 
 var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 
+/* '+' concatenation operator of a string
+  Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself. */
+
+var myStr = "This is the start. " + "This is the end.";
+
 console.log(myStr);
