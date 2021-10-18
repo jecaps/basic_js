@@ -103,3 +103,9 @@ c /= 11;
 
 var myFirstName = "Jerika";
 var myLastName = "Kanz";
+
+// escape a quote using backslash (\)
+
+var myStr = 'I am a "double quoted" string inside "double quotes".';
+
+console.log(myStr);
