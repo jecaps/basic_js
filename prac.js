@@ -48,6 +48,12 @@ myVar--;
 
 var myDecimal = 8.9;
 
-// multiply decimals like whole numbers with
+// multiply decimals like whole numbers
 
 var product = 2.0 * 2.5;
+
+//  divide one decimal by another with
+
+var quotient = 4.4 / 2.0;
+
+console.log(quotient);
