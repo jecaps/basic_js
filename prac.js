@@ -222,4 +222,11 @@ var removedFromArray = ourArray.shift();
 
 ourArray.unshift("Happy");
 
-console.log(ourArray);
+/* A function is a block of code designed to perform a particular task.
+  A function is executed when "something" invokes it (calls it).*/
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+reusableFunction();
