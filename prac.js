@@ -218,4 +218,8 @@ var oneDown = threeArr.pop();
 var ourArray = ["Stimpson", "J", ["cat"]];
 var removedFromArray = ourArray.shift();
 
-console.log(ourArray, removedFromArray);
+// .unshift() adds an element at the beginning of an array to the
+
+ourArray.unshift("Happy");
+
+console.log(ourArray);
