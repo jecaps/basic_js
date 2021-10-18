@@ -158,4 +158,9 @@ var firstLetterOfLastName = lastName[0];
 var myStr = "Jello World";
 myStr = "Hello World";
 
-console.log(myStr);
+// Bracket notation to get the character at other positions within a string.
+
+var LastName = "Kanz";
+var thirdLetterOfLastName = lastName[2];
+
+console.log(thirdLetterOfLastName);
