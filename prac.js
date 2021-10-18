@@ -167,4 +167,8 @@ var thirdLetterOfLastName = lastName[2];
 
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
-console.log(lastLetterOfLastName);
+// Use array to store several pieces of data into one variable array
+
+var myArray = ["Jerika", 27, "Germany"];
+
+console.log(myArray);
