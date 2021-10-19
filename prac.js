@@ -368,4 +368,17 @@ function testNotEqual(val) {
   }
   return "Equal";
 }
-console.log(testNotEqual(10));
+testNotEqual(10);
+
+// If number on the left side of the '>' operator is larger than the number on the right, it returns true.
+
+function testGreaterThan(val) {
+  if (val > 100) {
+    return "Over 100";
+  }
+  if (val > 10) {
+    return "Over 10";
+  }
+  return "10 or Under";
+}
+console.log(testGreaterThan(10));
