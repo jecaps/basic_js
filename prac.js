@@ -312,3 +312,12 @@ function processArg(num) {
 }
 processed = processArg(7);
 console.log(processed);
+
+/* booleans = either true or false 
+  never written in quotes*/
+
+function myBoolean() {
+  return true;
+}
+
+console.log(myBoolean());
