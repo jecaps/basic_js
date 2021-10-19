@@ -321,3 +321,14 @@ function myBoolean() {
 }
 
 console.log(myBoolean());
+
+// IF - to specify a block of code to be executed, if a specified condition is true.
+
+function test(myCondition) {
+  if (myCondition) {
+    return "It was true";
+  }
+  return "It was false";
+}
+console.log(test(true));
+console.log(test(false));
