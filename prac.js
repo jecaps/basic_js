@@ -266,4 +266,14 @@ function myLocalScope() {
   console.log("inside myLocalScope", theVar);
 }
 myLocalScope();
-console.log("outside myLocalScope", theVar);
+// console.log("outside myLocalScope", theVar);
+
+/* It is possible to have both local and global variables with the same name. 
+  local variable >>>> global variable */
+
+var someVar = "Hat";
+function myFun() {
+  var someVar = "Head";
+  return someVar;
+}
+console.log(myFun());
