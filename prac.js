@@ -350,3 +350,14 @@ function compareEquality(a, b) {
   return "Not Equal";
 }
 compareEquality(10, "10"); //returns false because '==' performs type coversion
+
+// != means 'not equal' and retuns 'false'
+
+function testNotEqual(val) {
+  if (val != 99) {
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+console.log(testNotEqual(10));
