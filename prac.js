@@ -454,4 +454,17 @@ function testElse(val) {
   return result;
 }
 
-console.log(testElse(4));
+testElse(4);
+
+// Use 'else if' to specify a new condition to test, if the first condition is false.
+
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  } else if (val < 5) {
+    return "Smaller than 5";
+  } else {
+    return "Between 5 and 10";
+  }
+}
+console.log(testElseIf(7));
