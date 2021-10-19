@@ -420,5 +420,14 @@ function testLessOrEqual(val) {
   }
   return "More than 24";
 }
+testLessOrEqual(10);
 
-console.log(testLessOrEqual(10));
+// The AND operator (&&) returns true if both expressions are true.
+
+function testLogicalAnd(val) {
+  if (val <= 50 && val >= 25) {
+    return "Yes";
+  }
+  return "No";
+}
+testLogicalAnd(10);
