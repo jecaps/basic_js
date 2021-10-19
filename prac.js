@@ -407,4 +407,18 @@ function testLessThan(val) {
   }
   return "55 or Over";
 }
-console.log(testLessThan(10));
+testLessThan(10);
+
+// If number on the left side of the '<=' operator is less than or equal to the number on the right, it returns true.
+
+function testLessOrEqual(val) {
+  if (val <= 12) {
+    return "Smaller than or equal to 12";
+  }
+  if (val <= 24) {
+    return "Smaller than or equal to 24";
+  }
+  return "More than 24";
+}
+
+console.log(testLessOrEqual(10));
