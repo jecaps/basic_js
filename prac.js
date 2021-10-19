@@ -351,13 +351,21 @@ function compareEquality(a, b) {
 }
 compareEquality(10, "10"); //returns false because '==' performs type coversion
 
-// != means 'not equal' and retuns 'false'
-
+// != means 'not equal'
 function testNotEqual(val) {
   if (val != 99) {
     return "Not Equal";
   }
   return "Equal";
 }
+testNotEqual(10);
 
+// !== means 'strictly not equal' and does not perform type coversion
+
+function testNotEqual(val) {
+  if (val !== 10) {
+    return "Not Equal";
+  }
+  return "Equal";
+}
 console.log(testNotEqual(10));
