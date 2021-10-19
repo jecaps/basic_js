@@ -302,3 +302,13 @@ function addFive() {
 console.log(addThree());
 console.log(addFive());
 console.log(sum);
+
+// We can take the return value of a function and assign it to a variable.
+
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7);
+console.log(processed);
