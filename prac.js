@@ -440,4 +440,18 @@ function testLogicalOr(val) {
   }
   return "Inside";
 }
-console.log(testLogicalOr(13));
+testLogicalOr(13);
+
+// Use 'else' to specify a block of code to be executed, if the condition is false.
+
+function testElse(val) {
+  var result = "";
+  if (val > 5) {
+    result = "Bigger than 5";
+  } else {
+    result = "5 or Smaller";
+  }
+  return result;
+}
+
+console.log(testElse(4));
