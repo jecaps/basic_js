@@ -381,4 +381,17 @@ function testGreaterThan(val) {
   }
   return "10 or Under";
 }
-console.log(testGreaterThan(10));
+testGreaterThan(10);
+
+// If number on the left side of the '>=' operator is larger than or equal to the number on the right, it returns true.
+
+function testGreaterOrEqual(val) {
+  if (val >= 100) {
+    return "100 or Over";
+  }
+  if (val >= 10) {
+    return "10 or Over";
+  }
+  return "Less than 10";
+}
+console.log(testGreaterOrEqual(10));
