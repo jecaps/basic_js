@@ -332,3 +332,21 @@ function test(myCondition) {
 }
 console.log(test(true));
 console.log(test(false));
+
+// 3 == '3' is true; 3 === '3' is false;
+
+function compareEquality(a, b) {
+  if (a === b) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+compareEquality(10, "10"); //returns false because '===' does not perform type coversion
+
+function compareEquality(a, b) {
+  if (a == b) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+compareEquality(10, "10"); //returns false because '==' performs type coversion
