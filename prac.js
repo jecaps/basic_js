@@ -137,7 +137,6 @@ var myStr = "My name is " + myName + " and I am well!";
 // '+=' to concatenate a string variable onto the end of an existing string variable
 
 var someAdjective = "not that hard.";
-var myStr = "Learning to code is ";
 myStr += someAdjective;
 
 // You can find the length of a String value by writing .length after the string variable or string literal.
@@ -222,8 +221,7 @@ var removedFromArray = ourArray.shift();
 
 ourArray.unshift("Happy");
 
-/* A function is a block of code designed to perform a particular task.
-  A function is executed when "something" invokes it (calls it).*/
+// A function is executed when "something" invokes it (calls it).
 
 function reusableFunction() {
   console.log("Hi World");
@@ -238,7 +236,6 @@ function functionWithArgs(p1, p2) {
 }
 
 /* Variables which are defined outside of a function block have Global scope. 
-  This means, they can be seen everywhere in your JavaScript code. */
 
 /*Instructions : Using var, declare a global variable named myGlobal outside of any function. Initialize it with a value of 10.
   Inside function fun1, assign 5 to oopsGlobal without using the var keyword.*/
@@ -321,8 +318,6 @@ function myBoolean() {
 }
 
 console.log(myBoolean());
-
-// IF - to specify a block of code to be executed, if a specified condition is true.
 
 function test(myCondition) {
   if (myCondition) {
@@ -442,8 +437,6 @@ function testLogicalOr(val) {
 }
 testLogicalOr(13);
 
-// Use 'else' to specify a block of code to be executed, if the condition is false.
-
 function testElse(val) {
   var result = "";
   if (val > 5) {
@@ -491,5 +484,25 @@ function bar(x) {
   }
 }
 
-console.log(foo(0));
-console.log(bar(0));
+foo(0);
+bar(0);
+
+// If/ else statements can be chained together for complex logic.
+
+function testSize(num) {
+  if (num < 5) {
+    return "Tiny";
+  } else if (num < 10) {
+    return "Small";
+  } else if (num < 15) {
+    return "Medium";
+  } else if (num < 20) {
+    return "Large";
+  } else if (num >= 20) {
+    return "Huge";
+  } else {
+    return "Change Me";
+  }
+}
+
+console.log(testSize(7));
