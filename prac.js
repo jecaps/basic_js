@@ -286,4 +286,19 @@ function plusThree(num) {
 }
 var answer = plusThree(5);
 
-console.log(answer);
+/* Return statement stops the execution of a function and returns a value from that function.
+ */
+
+var sum = 0;
+
+function addThree() {
+  sum += 3;
+}
+
+function addFive() {
+  sum += 5;
+}
+
+console.log(addThree());
+console.log(addFive());
+console.log(sum);
