@@ -504,5 +504,29 @@ function testSize(num) {
     return "Change Me";
   }
 }
+testSize(7);
 
-console.log(testSize(7));
+/* The switch statement is used to perform different actions based on different conditions.
+  'Break' will stop the execution inside the switch block.
+  'case' values are tested with strict equality (===).*/
+
+function caseInSwitch(val) {
+  var answer = "";
+  switch (val) {
+    case 1:
+      answer = "alpha";
+      break;
+    case 2:
+      answer = "beta";
+      break;
+    case 3:
+      answer = "gamma";
+      break;
+    case 4:
+      answer = "delta";
+      break;
+  }
+  return answer;
+}
+
+console.log(caseInSwitch(1));
