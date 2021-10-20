@@ -673,3 +673,12 @@ cc(3);
 cc(7);
 cc("K");
 cc("A");
+
+// Objects are useful for storing data in a structured way, and can represent real world objects, like a cat.
+
+var cat = {
+  name: "Whiskers",
+  legs: 4,
+  tails: 1,
+  enemies: ["Water", "Dogs"],
+};
