@@ -606,3 +606,16 @@ function chainToSwitch(val) {
   }
 }
 console.log(chainToSwitch(99));
+
+// Better way to write a comparison
+
+function isLess(a, b) {
+  // if (a < b) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+
+  return a < b;
+}
+console.log(isLess(10, 15));
