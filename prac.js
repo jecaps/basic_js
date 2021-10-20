@@ -619,3 +619,20 @@ function isLess(a, b) {
   return a < b;
 }
 console.log(isLess(10, 15));
+
+// When a return statement is reached, the execution of the current function stops and control returns to the calling location.
+
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye");
+}
+console.log(myFun());
+
+function abTest(a, b) {
+  if (a < 0 || b < 0) {
+    return undefined;
+  }
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+console.log(abTest(4, 9));
