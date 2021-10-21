@@ -836,3 +836,11 @@ while (i >= 0) {
   i--;
 }
 console.log(myArray);
+
+// For loops run for a specific number of times
+
+var myArray = [];
+for (var i = 1; i <= 5; i++) {
+  myArray.push(i);
+}
+console.log(myArray);
