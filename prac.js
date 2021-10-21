@@ -726,3 +726,16 @@ var myDog = {
 };
 myDog.name = "Happy Coder";
 console.log(myDog);
+
+// To add new properties to existing objects with dot or bracket notation
+
+var myDog = {
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+myDog.bark = "woof!";
+// myDog['bark'] = 'woof!';
+
+console.log(myDog);
