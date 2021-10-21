@@ -697,7 +697,6 @@ console.log(hatValue, shirtValue);
 
 //  Use bracket notation if property name has a spaces
 
-// Setup
 var testObj = {
   "an entree": "hamburger",
   "my side": "veggies",
@@ -716,3 +715,14 @@ var testObj = {
 
 var playerNumber = 16; // assign testObj property 16 to playerNumber
 var player = testObj[playerNumber]; // assign playerNumber (which is 16) to player
+
+// Use dot or bracket notation to change or update an objects property.
+
+var myDog = {
+  name: "Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+myDog.name = "Happy Coder";
+console.log(myDog);
