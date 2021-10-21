@@ -774,3 +774,22 @@ function checkObj(obj, checkProp) {
     return "Not Found";
   }
 }
+
+// flexible data structures
+
+var myMusic = [
+  {
+    artist: "Billy Joel",
+    title: "Piano Man",
+    release_year: 1973,
+    formats: ["CD", "8T", "LP"],
+    gold: true,
+  },
+  {
+    artist: "Lady Gaga",
+    title: "Born this way",
+    release_year: 2014,
+    formats: ["CD", "Spotify", "LP"],
+    platinum: true,
+  },
+];
