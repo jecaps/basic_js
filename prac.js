@@ -694,3 +694,14 @@ var hatValue = testObj.hat; // to access value of hat
 var shirtValue = testObj.shirt; // to access value of shirt
 
 console.log(hatValue, shirtValue);
+
+//  Use bracket notation if property name has a spaces
+
+// Setup
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water",
+};
+var entreeValue = testObj["an entree"]; // to access value of an entree
+var drinkValue = testObj["the drink"]; // to access value of the drink
