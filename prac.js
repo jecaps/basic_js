@@ -826,3 +826,13 @@ var myPlants = [
 ];
 var secondTree = myPlants[1].list[1];
 console.log(secondTree);
+
+// While loops run while a specified condition is true and stops once that condition is no longer  true.
+
+var myArray = [];
+var i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+console.log(myArray);
