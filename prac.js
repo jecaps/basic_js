@@ -844,3 +844,11 @@ for (var i = 1; i <= 5; i++) {
   myArray.push(i);
 }
 console.log(myArray);
+
+// Iterating odd numbers
+
+var myArray = [];
+for (var i = 1; i <= 9; i += 2) {
+  myArray.push(i);
+}
+console.log(myArray);
