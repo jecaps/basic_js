@@ -682,3 +682,15 @@ var cat = {
   tails: 1,
   enemies: ["Water", "Dogs"],
 };
+
+// Use dot notation when you know the name of the property you want to access.
+
+var testObj = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats",
+};
+var hatValue = testObj.hat; // to access value of hat
+var shirtValue = testObj.shirt; // to access value of shirt
+
+console.log(hatValue, shirtValue);
