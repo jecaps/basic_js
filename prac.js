@@ -764,3 +764,13 @@ function phoneticLookup(val) {
 }
 
 console.log(phoneticLookup("delta"));
+
+// Use .hasOwnProperty to determine if that object has a given property name.
+
+function checkObj(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+}
