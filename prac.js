@@ -705,3 +705,14 @@ var testObj = {
 };
 var entreeValue = testObj["an entree"]; // to access value of an entree
 var drinkValue = testObj["the drink"]; // to access value of the drink
+
+/* Another use of bracket notation on objects is to access a property which is stored as the value of a variable. */
+
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas",
+};
+
+var playerNumber = 16; // assign testObj property 16 to playerNumber
+var player = testObj[playerNumber]; // assign playerNumber (which is 16) to player
