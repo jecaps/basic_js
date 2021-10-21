@@ -739,3 +739,9 @@ myDog.bark = "woof!";
 // myDog['bark'] = 'woof!';
 
 console.log(myDog);
+
+// Delete 'tails' from myDog
+
+delete myDog.tails;
+
+console.log(myDog);
