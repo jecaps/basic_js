@@ -945,3 +945,15 @@ do {
 } while (i < 5);
 
 console.log(myArray);
+
+// Recursion is the concept that a function can be expressed in terms of itself.
+
+function summ(arr, n) {
+  if (n <= 0) {
+    return 0;
+  } else {
+    return summ(arr, n - 1) + arr[n - 1];
+  }
+}
+
+console.log(summ([2, 3, 4, 5], 3));
