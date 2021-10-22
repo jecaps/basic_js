@@ -1007,3 +1007,11 @@ function lookUpProfile(name, prop) {
 }
 
 console.log(lookUpProfile("Akira", "lastName"));
+
+// Math.random() generates a random decimal number between 0 (inclusive) and 1 (exclusive).
+
+function randomFraction() {
+  return Math.random();
+}
+
+console.log(randomFraction());
