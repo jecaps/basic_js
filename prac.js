@@ -934,3 +934,14 @@ console.log(
     [5, 6, 7],
   ])
 );
+
+// Do... while loops create a loop that executes a block of code once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+var myArray = [];
+var i = 10;
+do {
+  myArray.push(i);
+  i++;
+} while (i < 5);
+
+console.log(myArray);
