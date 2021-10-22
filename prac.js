@@ -1015,3 +1015,11 @@ function randomFraction() {
 }
 
 console.log(randomFraction());
+
+// Math.floor() to round the number down to its nearest whole number.
+
+function randomWholeNum() {
+  return Math.floor(Math.random() * 10);
+}
+
+console.log(randomWholeNum());
