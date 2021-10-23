@@ -1071,3 +1071,28 @@ function checkEqual(a, b) {
   return a == b ? "Equal" : "Not Equal";
 }
 console.log(checkEqual(1, 2));
+
+// Writing multiple conditional(ternary) operators
+
+function findGreaterOrEqual(a, b) {
+  if (a === b) {
+    return "a and b are equal";
+  } else if (a > b) {
+    return "a is greater";
+  } else {
+    return "b is greater";
+  }
+} // this code...
+
+function findGreaterOrEqual(a, b) {
+  return a === b
+    ? "a and b are equal"
+    : a > b
+    ? "a is greater"
+    : "b is greater";
+} //... can also be written like this
+
+function checkSign(num) {
+  return num > 0 ? "positive" : num < 0 ? "negative" : "zero";
+}
+console.log(checkSign(10));
