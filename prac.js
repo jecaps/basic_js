@@ -1113,3 +1113,18 @@ function countdown(n) {
   }
 }
 console.log(countdown(5));
+
+// return an array from startNum to endNum using a recursive function
+
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum == endNum) {
+    console.log("Base case: ", [startNum]);
+    return [startNum];
+  }
+  var result = rangeOfNumbers(startNum, endNum - 1);
+  result.push(endNum);
+  console.log(result);
+  return result;
+}
+
+console.log(rangeOfNumbers(4, 9));
