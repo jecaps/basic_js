@@ -1031,3 +1031,12 @@ function randomRange(myMin, myMax) {
 }
 
 console.log(randomRange(5, 15));
+
+/* parseInt() function converts the string to the integer .
+  If the first character in the string can't be converted into a number, then it returns NaN. */
+
+function convertToInteger(str) {
+  return parseInt(str);
+}
+
+console.log(convertToInteger("56"));
